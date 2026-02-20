@@ -1,0 +1,25 @@
+# Optional dependencies for LOCAL LLM support
+# Install ONLY if you want to run models locally
+
+# llama.cpp Python bindings - Choose ONE option below:
+
+# OPTION 1: CPU only (easiest, works everywhere)
+# pip install llama-cpp-python
+
+# OPTION 2: With GPU support (NVIDIA CUDA)
+# CMAKE_ARGS="-DLLAMA_CUBLAS=on" pip install llama-cpp-python
+
+# OPTION 3: With GPU support (Apple Metal - Mac M1/M2/M3)
+# CMAKE_ARGS="-DLLAMA_METAL=on" pip install llama-cpp-python
+
+# OPTION 4: Pre-built wheels (if compilation fails)
+# pip install llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+
+# Voice support (optional)
+# openai-whisper>=20230918
+# faster-whisper>=0.10.0
+# sounddevice>=0.4.6
+
+# GPU acceleration with vLLM (optional, NVIDIA only)
+# vllm>=0.2.0
+# torch>=2.0.0
