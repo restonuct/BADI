@@ -7,7 +7,7 @@ Thank you for your interest in contributing to B.A.D.I.! We welcome contribution
 1. **Fork the repository** on GitHub
 2. **Clone your fork**:
    ```bash
-   git clone https://github.com/yourusername/badi.git
+   ggit clone https://github.com/restonuct/BADI
    cd badi
    ```
 3. **Set up development environment**:
