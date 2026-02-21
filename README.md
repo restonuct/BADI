@@ -50,7 +50,7 @@ B.A.D.I. is built on a layered architecture:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/badi.git
+git clone https://github.com/restonuct/BADI
 cd badi
 ```
 
